@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Rocket-Tracker';
+
+  getValue(loc:string){
+    console.warn(loc);
+
+  }
 }
